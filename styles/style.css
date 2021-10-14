@@ -98,3 +98,11 @@ header nav a:hover {
 .filme-principal .container {
     width: 60%;
 }
+
+/* Lista de filmes, séries, etc*/
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
