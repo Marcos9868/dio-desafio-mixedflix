@@ -13,7 +13,7 @@
 
 body {
    background: var(--preta);
-   font-family: 'Times New Roman', Times, serif; 
+   font-family: 'Arial', Times, serif; 
    color: #ffffff;
 }
 
@@ -101,8 +101,43 @@ header nav a:hover {
 
 /* Lista de filmes, séries, etc*/
 
+.carrossel-filmes {
+    margin-top: 100px;
+}
+
+.carrossel-filmes h2 {
+    margin-bottom: 80px;
+    margin-left: 15px;
+    font-size: 32px;
+}
+
+.owl-carousel owl-theme{
+    margin-top: 30px;
+}
+
 .box-filmes {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-series {
+    margin-top: 50px;
+}
+
+.carrossel-series h2 {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+    font-size: 32px;
+}
+
+.carrossel-documentarios {
+    margin-top: 50px;
+}
+
+.carrossel-documentarios h2 {
+    margin-bottom: 80px;
+    margin-left: 15px;
+    font-size: 32px;
 }
